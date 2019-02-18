@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="OS" value="Windows"/>
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Extent.Etent.App">
+        <methods>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="testCase5"/>
+          <include name="testCase4"/>
+        </methods>
+      </class> <!-- Extent.Etent.App -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
